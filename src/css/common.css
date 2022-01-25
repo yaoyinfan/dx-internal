@@ -1,0 +1,189 @@
+@charset "UTF-8";
+/* css重置 */
+html {
+  height: 100%;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9fb;
+  height: 100%;
+  color: #404040;
+  font-family: "PingFangSC-Regular", "PingFang SC Regular", "PingFangSC", "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", sans-serif !important;
+  font-size: 12px;
+  position: relative;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+figure,
+form {
+  margin: 0;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+img {
+  border: 0;
+  vertical-align: middle;
+  -ms-interpolation-mode: bicubic;
+}
+
+a {
+  text-decoration: none;
+  color: #29b4f0;
+}
+
+a:focus {
+  outline: thin dotted;
+}
+
+a:hover {
+  color: #017cb9;
+  text-decoration: underline;
+}
+
+/* hn */
+h1 {
+  font-size: 16px;
+  line-height: 36px;
+}
+
+h2 {
+  font-size: 14px;
+  line-height: 30px;
+}
+
+h3 {
+  line-height: 24px;
+}
+
+h3,
+h4,
+h5,
+h6 {
+  font-size: 12px;
+}
+
+/* ul ol dl */
+ul,
+li,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style: none outside none;
+}
+
+ul.has-style li,
+ol li {
+  margin-left: 25px;
+}
+
+ul.has-style li {
+  list-style: disc;
+}
+
+ol li {
+  list-style: decimal;
+}
+
+dl {
+  margin-bottom: 18px;
+}
+
+dt {
+  font-weight: bold;
+}
+
+dd {
+  margin: 0 0 0 9px;
+  padding: 0;
+}
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* clearfix */
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+  overflow: hidden;
+}
+
+.clearfix {
+  zoom: 1;
+}
+
+input,
+textarea,
+select,
+option,
+button {
+  font-family: "PingFangSC-Regular", "PingFang SC Regular", "PingFangSC", "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", sans-serif !important;
+}
+
+.page-title {
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 80px;
+  text-align: center;
+}
+
+.layout-aside {
+  position: fixed;
+  z-index: 100;
+  height: 100%;
+  overflow-y: auto;
+  top: 84px;
+}
+.layout-aside .el-menu {
+  background-color: transparent;
+  border-right: none;
+}
+.layout-aside.el-aside {
+  color: #333;
+  overflow-x: hidden;
+  position: relative;
+  transition: width 0.2s ease-in-out;
+  padding-top: 20px;
+}
+
+.container-outer {
+  margin: 0 auto;
+  width: 1200px;
+}
+.container-outer .main-content {
+  width: 980px;
+  padding: 0 10px;
+  margin-left: 200px;
+  height: 100%;
+}
+.container-outer .main-content .bread-after-outer {
+  margin-top: 8px;
+}
+.container-outer.full {
+  width: 100%;
+}
+.container-outer.full .main-content {
+  padding: 0;
+  margin: 0 auto;
+  width: 100%;
+}
