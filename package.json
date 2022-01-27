@@ -3,7 +3,7 @@
   "autor": "<%=author%>",
   "private": "<%=private%>",
   "description": "<%=description%>",
-  "license": "<%=license%>"
+  "license": "<%=license%>",
   "scripts": {
     "postinstall": "husky install",
     "dev": "vite",
