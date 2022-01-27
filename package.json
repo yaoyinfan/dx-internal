@@ -1,8 +1,8 @@
 {
-  "autor": "<%=author%>",
-  "private": "<%=private%>",
-  "description": "<%=description%>",
-  "license": "<%=license%>",
+  "autor": "<%= author %>",
+  "private": "<%= private %>",
+  "description": "<%= description %>",
+  "license": "<%= license %>",
   "scripts": {
     "postinstall": "husky install",
     "dev": "vite",
