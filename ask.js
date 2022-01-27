@@ -1,22 +1,22 @@
-export const questions = [
+module.exports = [
     {
         type: 'confirm',
         name: 'private',
-        message: 'ths resgistery is private?'
+        message: 'ths resgistery is private?',
     },
     {
         type: 'input',
         name: 'author',
-        message: 'author?'
+        message: 'author?',
     }, 
     {
         type: 'input',
         name: 'description',
-        message: 'description?'
+        message: 'description?',
     }, 
     {
         type: 'input',
         name: 'license',
-        message: 'license?'
+        message: 'license?',
     }
 ];
