@@ -1,5 +1,4 @@
 {
-  "private": true,
   "autor": "<%=author%>",
   "private": "<%=private%>",
   "description": "<%=description%>",
