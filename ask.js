@@ -1,4 +1,4 @@
-exports default const = [
+export const questions = [
     {
         type: 'confirm',
         name: 'private',
@@ -19,5 +19,4 @@ exports default const = [
         name: 'license',
         message: 'license?'
     }
-
 ];
