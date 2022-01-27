@@ -1,4 +1,4 @@
-module.exports = [
+exports default const = [
     {
         type: 'confirm',
         name: 'private',
