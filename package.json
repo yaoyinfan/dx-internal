@@ -1,6 +1,6 @@
 {
   "autor": "<%= author %>",
-  "private": "<%= private %>",
+  "private": <%= private %>,
   "description": "<%= description %>",
   "license": "<%= license %>",
   "scripts": {
